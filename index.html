@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Maria Fernanda - Portifólio </title>
+    <title> Maria Fernanda - Portifolio </title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <nav>
-        <h4 class="name-maria">Fernanda Magalhães - Desenvolvedora Full-Stack</h4>
+        <h4 class="name-maria">Fernanda Magalhães - Student and Full-Stack Developer</h4>
         <ul>
-            <li><a href="#sobre-mim">Sobre mim</a></li>
-            <li><a href="#experiencia">Experiência</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#sobre-mim">About me</a></li>
+            <li><a href="#habilidades">Skills</a></li>
+            <li><a href="#projetos">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -24,13 +25,13 @@
 
         <div class="mycontainer">
             <div class="text">
-            <p>Boas vindas ao meu portifólio!</p>
+            <p>Welcome to my portifolio!</p>
             <h1>Maria Fernanda Magalhães Freitas</h1>
             </div>
         
         <div class="btn-redes">
         <div class="mybutton">
-            <button class="contactme">Entre em contato</button>
+            <a href="#contact"><button class="contactme">Contact me</button></a>
         </div>
 
         <div class="icon">
@@ -43,61 +44,91 @@
 
     <section id="sobre-mim">
         <div class="container-sobre">
-            <h2>Sobre mim:</h2>
+            <h2>About me: </h2>
             <p>
-                Olá! Meu nome é Maria Fernanda Magalhães Freitas. Sou estudante de graduação do curso
-                de Ciência da Computação pela UFRN, atualmente no terceiro semestre, e desenvolvedora full-stack.
-                Tenho experiência em C++, HTML, CSS, JavaScript e frameworks modernos.
-                Meu maior interesse é criar aplicações que podem ser utilizadas por qualquer pessoa no dia a dia.
-            </p>
-            <p>
-                Gosto de aprender novas tecnologias, trabalhar e criar projetos. 
-                Sempre procuro melhorar a cada dia as minhas habilidades na área da programação.
+                Hi! My name is Maria Fernanda Magalhães Freitas. I'm an undergraduate in Computer Science at UFRN,
+                currently in the second year of my degree, and a full-stack developer. My major interest is creating new
+                projects that can be used in everyday life.
             </p>
 
-            <div class="imgsicons">
-            <img class="logo" src="imgs/c_original_logo_icon_146611.png">
-            <img class="logo" src="imgs/javascript_icon_130900.png" alt="">
-            <img class="logo" src="imgs/4202020css3htmllogosocialsocialmedia-115668_115633.png" alt="">
-            </div>
-        </div>
-    </section>
-
-    <section id="experiencia">
-        <p>Minha experiência profissional: </p>
-        <h3>Co-fundadora da primeira empresa júnior do curso de Ciência da Computação da UFRN: <strong>A Poticode.</strong>
-        Nós, como empresa, produzimos sites institucionais para diversas empresas do Brasil.</h3>
-    </section>
-
-    <section id="projetos">
-        <h4 class="meus-projetos">Meus projetos:</h4>
-        <div class="containerimgs">
-        <div class="box1">
-            <img class="map" src="imgs/map.png" alt="">
-            <p>Geração de terreno procedural com C++</p>
-        </div>
-        <div class="box2">
-            <img class="sigaa" src="imgs/sitesigaa.png" alt="">
-            <p>Site alternativo ao SIGAA com HTML5, CSS3 E JavaScript</p>
-        </div>
-        <div class="box3">
-            <img class="bank" src="imgs/bank.jpg" alt="">
-            <p>Sistema financeiro com programação orientada a objetos em C++</p>
-        </div>
+            <ul class="sobre-topicos">
+                <li><i class="fa-solid fa-code"></i> Main stack: C++, HTML, CSS and JavaScript</li>
+                <li><i class="fa-solid fa-rocket"></i> Co-founder of the first Junior Company of Computer Science departament at UFRN, the <strong>Poticode</strong></li>
+                <li><i class="fa-solid fa-book"></i> Development of sites for brazilians companies</li>
+                <li><i class="fa-solid fa-building"></i> Advanced English </li>
+                <li><i class="fa-solid fa-globe"></i> Chasing new projects and studying new technologies</li>
+            </ul>
         </div>
     </section>
 
     <section id="habilidades">
-        <h2>Minhas Habilidades:</h2>
-        
+        <h2>Skills: </h2>
+
         <div class="habilidades-list">
-        <p>Inglês avançado</p>
-        <p>Boa comunicação</p>
-        <p>Proatividade</p>
-        <p>Vontade de aprender</p>
+            <p><i class="fa-brands fa-html5"></i> HTML</p>
+            <p><i class="fa-brands fa-css3-alt"></i> CSS</p>
+            <p><i class="fa-brands fa-js"></i> JavaScript</p>
+            <p><i class="fa-solid fa-code"></i> C++</p>
+            <p><i class="fa-brands fa-git-alt"></i> Git</p>
+            <p><i class="fa-brands fa-github"></i> GitHub</p>
+        </div>
+
+        <div class="imgsicons">
+            <img class="logo" src="imgs/c_original_logo_icon_146611.png">
+            <img class="logo" src="imgs/javascript_icon_130900.png" alt="">
+            <img class="logo" src="imgs/4202020css3htmllogosocialsocialmedia-115668_115633.png" alt="">
+            <img class="logo" src="imgs/file_type_html_icon_130541.png" alt="">
         </div>
     </section>
 
+    <section id="projetos">
+        <h4 class="meus-projetos">My projects: </h4>
+        
+        <div class="btnesq">
+        <button class="arrow-left">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        </div>
+        
+        <div class="containerimgs">
+            
+
+        <div class="box">
+            <img class="map" src="imgs/map.png" alt="">
+            <p>Generation of a procedural terrain with C++</p>
+        </div>
+        <div class="box">
+            <img class="sigaa" src="imgs/sitesigaa.png" alt="">
+            <p>Alternative site of SIGAA with HTML5, CSS3 E JavaScript</p>
+        </div>
+        <div class="box">
+            <img class="bank" src="imgs/bank.jpg" alt="">
+            <p>Financial system with Oriented Object Programing</p>
+        </div>
+    </div>
+
+    <div class="btndir">
+    <button class="arrow-right">
+        <i class="fa-solid fa-chevron-right"></i>
+    </button>
+    </div>
+    </section>
+
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Have a project in mind or any doubt? I'm avaiable, just send me a message!</p>
+
+        <form class="contact-form" action="https://formsubmit.co/fernandakicks@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false" >
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="contactme">Send Message</button>
+        </form>
+
+    </section>
 
     <script src="script.js" defer></script>
 </body>
